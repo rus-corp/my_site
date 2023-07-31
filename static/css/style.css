@@ -15,15 +15,16 @@ a {
 .about {
     width: 20%;
     height: 1300px;
-    background-color: chocolate;
+    background-color: rgb(99, 98, 98);
     text-align: center;
     font-size: 14px;
-    
+    color: white;
 }
 
 .photo {
     margin-top: 10px;
     height: 150px;
+    border-radius: 50%;
 }
 
 .about-text {
@@ -58,6 +59,7 @@ a {
 .main {
     margin-left: 20px;
     width: 80%;
+    background-color: rgb(253, 253, 255);
 }
 
 .person {
