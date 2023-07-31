@@ -4,6 +4,7 @@ body {
     padding: 0;
     font-size: 17px;
     width: 1400px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 a {
@@ -19,6 +20,7 @@ a {
     text-align: center;
     font-size: 14px;
     color: white;
+    font-family: 'Ysabeau Office', sans-serif;
 }
 
 .photo {
@@ -85,7 +87,7 @@ a {
 
 .person_data {
     display: inline-block;
-    width: 300px;
+    width: 500px;
     text-align: end;
     box-sizing: border-box;
     margin-top: 10px;
