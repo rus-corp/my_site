@@ -1,0 +1,136 @@
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+    width: 1400px;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* Левая часть обо мне */
+.about {
+    width: 20%;
+    height: 1300px;
+    background-color: chocolate;
+    text-align: center;
+    font-size: 14px;
+    
+}
+
+.photo {
+    margin-top: 10px;
+    height: 150px;
+}
+
+.about-text {
+    position: relative;
+    padding: 5px;
+}
+
+.about-text::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    border-bottom: 2px solid black;
+}
+
+.about-text__title {
+    text-align: start;
+}
+
+.about-text__desc {
+    text-align: justify;
+}
+
+.about-text__desc h4,
+.about-text__desc p {
+    margin: 0;
+}
+
+
+/* Центральная часть  */
+.main {
+    margin-left: 20px;
+    width: 80%;
+}
+
+.person {
+    display: inline-block;
+    width: 100%;
+    position: relative;
+}
+
+.person::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-bottom: 2px solid black;
+    width: 100%;
+}
+
+.person_name {
+    display: inline-block;
+    width: 500px;
+    box-sizing: border-box;
+}
+
+.person_data {
+    display: inline-block;
+    width: 300px;
+    text-align: end;
+    box-sizing: border-box;
+    margin-top: 10px;
+    padding: 15px;
+}
+
+.icons {
+    width: 20px;
+    margin: 10px 5px 0 0;
+    vertical-align: middle;   
+}
+
+.project__title ul {
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Опыт работы */
+
+.work h2 {
+    position: relative;
+}
+
+.work h2::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 100%;
+    border-bottom: 1px solid black;
+}
+
+.work {
+    display: flex;
+}
+
+.work__company {
+    width: 50%;
+    border-width: 0 2px 0 0;
+    border-style: solid;
+    border-color: black;
+}
+
+
+.work__desc {
+    margin-left: 10px;
+    width: 50%;
+}
+
