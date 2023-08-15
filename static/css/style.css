@@ -90,6 +90,11 @@ a {
     box-sizing: border-box;
 }
 
+.skills_title {
+    margin: 0;
+    padding: 0;
+}
+
 .person_data {
     display: inline-block;
     width: 500px;
